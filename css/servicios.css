@@ -1,0 +1,49 @@
+.my-services{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.my-services .container--flex{
+	align-items: flex-start;
+}
+.my-services__title{
+	font-family:'Pacifico';
+	color:#DE423A;
+	font-weight: bold;
+	font-size: 1.8em;
+	margin-bottom: 10px;
+}
+.my-services__img{
+	width:auto;
+	height:auto;
+	object-fit: cover;
+	border-radius: 29%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+.my-services__txt{
+	padding: 10px;
+}
+@media screen and(min-width:480px){
+	.my-services__img{
+		width: 150px;
+		height: 150px;
+	}
+}
+@media screen and(min-width:768px){
+	.my-services__img{
+		width: 220px;
+		height: 220px;
+	}
+}
+@media screen and(min-width:1024px){
+	.my-services__img{
+		width: 310px;
+		height: 310px;
+	}
+}
+@media screen and(min-width:1600px){
+	.my-services__img{
+		width: 410px;
+		height: 410px;
+	}
+}

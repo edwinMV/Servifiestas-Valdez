@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>	Contacto|Servifiestas Valdez</title>
+        <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/contacto.css">
+        <link rel="stylesheet" href="css/font.css">
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="container container--flex">
+                <div class="logo-container column column--50">
+                    <h1 class="logo">Servifiestas Valdez</h1>
+                </div>
+                    <div class="main-header__contactInfo column column--50">
+                       
+                        <p class="main-header__contact__telefono">
+                            <span class="icon-telefono">327-104-97-77</span>
+                        </p>
+                        <p class="main-header__contactInfo__ubicacion">
+                            <span class="icon-ubicacion">15 de Diciembre 9-A, San Rafael, 63710 Zacualpan,Nay.</span> </p>  
+                    </div>
+            </div>
+        </header>
+        
+        <nav class="main-nav">
+            <div class="container container--flex">
+                <span class="icon-menu" id="btnmenu"></span>
+                <ul class="menu" id="menu">
+                    <li class="menu__item"><a href="/" class="menu__link">Inicio</a></li>
+                    <li class="menu__item"><a href="servicios.html" class="menu__link ">Servicios</a></li>
+                    <li class="menu__item"><a href="galeria.html" class="menu__link ">Galeria</a></li>
+                    <li class="menu__item"><a href="contacto.html" class="menu__link menu__link--select">Contactos</a></li>
+                </ul>
+                <div class="social-icon">
+                <a href="https://www.facebook.com/Servifiestas-Valdez-320445231958026/photos/?ref=page_internal" target="_blank" class="social-icon__link" ><span class="icon-facebook"></span></a>
+                <a href="https://api.whatsapp.com/send?phone=+52 3271049777" target="_blank" class="social-icon__link"><span class="icon-whatsapp"></span></a>
+                </div>
+            </div>
+        </nav>
+        
+        <section class="banner">
+            <img src="img/galeria/11.jpeg" alt="" class="banner__img">
+            <div class="banner__content">"Dejanos un mensaje"</div>
+        </section>
+        
+        <main class="main">
+        	<section class="group contact">
+        		<h2 class="group__title">Contáctenos</h2>
+        		<div class="container container--flex">
+        			<div class="contact-information column column--50">
+        				<h3 class="column__title">Información de contacto</h3>
+        				<p class="column__txt"><span class="icon-telefono"></span> Telefono: 327-273-02-84</p>
+        				<p class="column__txt"><span class="icon-whatsapp"></span> Whatsapp: 327-104-97-77</p>
+        				<p class="column__txt"><span class="icon-ubicacion"></span> 15 de Diciembre 9-A, San Rafael, 63710 Zacualpan,Nay.</p>
+        				<p class="column__txt"><span class="icon-correo"></span> servifiestasvaldez@gmail.com</p>
+        				<div class="social-icon">
+                			<a href="https://www.facebook.com/Servifiestas-Valdez-320445231958026/photos/?ref=page_internal" class="social-icon__link" target="_blank"><span class="icon-facebook"></span></a>
+                			<a href="https://api.whatsapp.com/send?phone=+52 3271049777" target="_blank" class="social-icon__link"><span class="icon-whatsapp"></span></a>
+                		</div>
+        			</div>
+        			<form action="enviar-prueba.php" method="post" class="formulario column column--50">
+        				<label for="" class="formulario__label">Nombre:</label>
+        				<input type="text" class="formulario__input-txt" name="nombre">
+        				<label for="" class="formulario__label">Correo:</label>
+        				<input type="text" class="formulario__input-txt" name="correo">
+        				<label for="" class="formulario__label">Teléfono:</label>
+        				<input type="text" class="formulario__input-txt" name="telefono">
+        				<label for="" class="formulario__label">Mensaje:</label>
+        				<textarea name="mensaje" id="" cols="30" rows="10" class="formulario__textarea"></textarea>
+        				<input type="submit" class="btn formulario__btn" value="Enviar">
+        			</form>
+        		</div>
+        	</section>
+        </main> 
+        
+        <footer class="main-footer">
+        	<div class="container container--flex">
+        		<div class="colum colum-33">
+        			<h2 class="column__title">¿Porque elegirnos?</h2>
+        			<p class="column__txt">Tenemos la experiencia en todo tipo de eventos</p>
+        			<p class="column__txt">y un personal perfectamente capacitado para </p>
+        			<p class="column__txt">brindarle el mejor servicio.</p>
+        		</div>
+        		<div class="colum colum-33">
+        			<h2 class="column__title">Contactenos</h2>
+        			<p class="column__txt">Telefono: 327-104-97-77</p>	
+        			<p class="column__txt">15 de Diciembre 9-A, San Rafael, 63710 Zacualpan,Nay.</p>	
+        		</div>
+        		<div class="colum colum-33">
+        			<h2 class="column__title">Nuestras redes</h2>
+        			<p class="column__txt"><a href="https://www.facebook.com/Servifiestas-Valdez-320445231958026/photos/?ref=page_internal" target="_blank" class="icon-facebook">Facebook</a></p>	
+        		</div>
+			</div>
+       			<p class="copy">©2021 servifiestas Valdez | Todos los derechos reservados</p>
+        </footer>
+         <script src="js/menu.js"></script>   
+         <script src="js/modal.js"></script>   
+    </body>
+</html>
